@@ -5,4 +5,11 @@
                              http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
          id="WebApp_ID" version="3.0">
   <display-name>Archetype Created Web Application</display-name>
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <page-encoding>UTF-8</page-encoding>
+      <include-prelude>/WEB-INF/jsp/taglib.jsp</include-prelude>
+    </jsp-property-group>
+  </jsp-config>
 </web-app>
