@@ -1,0 +1,1 @@
+テンプレート切り替え：<c:import url="/WEB-INF/jsp/templates/tmpl${param.number}.jsp"/>
