@@ -1,5 +1,24 @@
 # JSPをテンプレート化して利用するサンプル
 
+## スタンドアローンでの実行
+
+GitとMavenがパスに通っている環境で以下のコマンドを実行（動作確認は3.2.1）。
+
+```
+git clone https://github.com/MATSUMOTO-Takashi/jsp_template.git
+cd jsp_template/jsp_template
+mvn install
+mvn jetty:run
+```
+
+ブラウザからアクセス
+
+```
+http://localhost:8080/jsp_template/
+```
+
+## サンプルの説明
+
 以下のwebappディレクトリにJSPファイルが含まれているため、以降はそこをルートとして階層を記載する。
 またtaglib.jspは全てのjspでインクルードされるファイルとなっている。
 
