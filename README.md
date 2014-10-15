@@ -7,7 +7,6 @@ GitとMavenがパスに通っている環境で以下のコマンドを実行（
 ```
 git clone https://github.com/MATSUMOTO-Takashi/jsp_template.git
 cd jsp_template/jsp_template
-mvn install
 mvn jetty:run
 ```
 
